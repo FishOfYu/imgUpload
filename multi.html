@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" type="text/css" href="css/multi.css"/>
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/multi.js"></script>
+		<script type="text/javascript" src="js/yg_rem.js"></script>
+	</head>
+	<body>
+		<div class="header">图片预览上传(支持多张)</div>
+		<textarea placeholder="这里只是一个测试的文本域"></textarea>
+		<div id="yg_multi">
+			<!-- 上传图片按钮 -->
+			<div id="commitImg">
+				<img src="images/photo.png">
+				<input type="file" accept="image/*"  multiple onchange="imagePreview(this)">
+			</div>
+		</div>
+			
+	</body>
+</html>
